@@ -15,8 +15,8 @@ export default class Navegacion extends Component {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="ml-auto">
-                <Nav.Link><Link to="/" className="link">Inicio</Link></Nav.Link>
-                <Nav.Link><Link to="/acercade" className="link">Acerca de</Link></Nav.Link>
+                <Nav.Link><Link to="/router/" className="link">Inicio</Link></Nav.Link>
+                <Nav.Link><Link to="/router/acercade" className="link">Acerca de</Link></Nav.Link>
                 <NavDropdown title="Nose" id="basic-nav-dropdown">
                   <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                   <NavDropdown.Item href="#action/3.2">
@@ -30,7 +30,7 @@ export default class Navegacion extends Component {
                     Separated link
                   </NavDropdown.Item>
                 </NavDropdown>
-                <Nav.Link><Link to="/contacto" className="link">Contacto</Link></Nav.Link>
+                <Nav.Link><Link to="/router/contacto" className="link">Contacto</Link></Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </div>
