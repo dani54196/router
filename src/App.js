@@ -16,9 +16,9 @@ function App() {
   return (
     <Router>
       <Navegacion/>
-      <Route path="/" exact component={Inicio}/>
-      <Route path="/acercade" component={AcercaDe}/>
-      <Route path="/contacto" component={Contacto}/>
+      <Route path="/router/" exact component={Inicio}/>
+      <Route path="/router/acercade" component={AcercaDe}/>
+      <Route path="/router/contacto" component={Contacto}/>
     </Router>
   );
 }
